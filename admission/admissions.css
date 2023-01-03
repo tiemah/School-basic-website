@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.history{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 10px;
+    padding: 20px;
+}
+.gallery img{
+    width: 200px;
+    height: 200px;
+}
+.adm-history{
+    color:black;
+    background: rgba(116, 124, 124, 0.7);
+    font-size: 20px;
+    font-family: fantasy;
+    text-align: center;
+    margin-left: 250px;
+    margin-right: 250px;
+    padding: 20px;
+}
+.graph{
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    background: rgba(46, 133, 141, 0.7);    
+}
+.graphpic img{
+    width: 400px;
+    height: 300px;
+    margin: 20px;
+    padding: 10px;
+    margin-top: 40px;
+}
+.graph figcaption{
+    margin-left: 30px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.description p{
+    /* background: rgba(241, 245, 241, 0.932); */
+    color: black;
+    font-size: 20px;
+    font-family: fantasy;
+    margin-top: 40px;
+}
+.admission-gallery{
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    
+}
+.admission-gallery video
+{
+    margin-left: 30px;
+    width: 400px;
+    height: 350px;
+}
+.admission-gallery h3{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 40px;
+    background: rgba(172, 11, 150, 0.7);
+    align-items: center;
+}
+/* .pictures{ */
+    /* display: grid;
+    grid-template-columns: 25% 25%;
+    grid-template-rows: 25% 25%; */
+
+/* } */
+ .requirements h2{
+    text-align: center;
+    font-size: 20px;
+    color:black;
+    align-items: center;
+    background: rgba(172, 11, 150, 0.7);
+    
+}
+
+.requirements{
+    margin-top: 20px;
+    margin-left: 20px;
+    background: rgba(22, 190, 196, 0.7);
+
+   
+}
+.requirements p{
+    font-size: 20px;
+    font-family: fantasy;
+}
+.requirements ul li{
+    font-size: 20px;
+    margin: 20px;
+
+   }
+    /* footer */
+
+ .footer-wrapper{
+    bottom: 0;
+    position: sticky;
+    background: rgb(35, 47, 71);
+    margin-top: 20px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 40% 60%;    
+}
+/* news letter */
+.news-letter p{
+    font-size: 20px;
+    font-family: fantasy;
+    color:snow;
+}
+/* col-2 */
+.column-2
+{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+/* adress */
+.address{
+    font-size: 20px;
+    font-family: fantasy;
+    color: snow;
+}
+/* contact */
+.contact{
+    font-size: 20px;
+    font-family: fantasy;
+    color: snow;
+}
+/* help */
+.help{
+    color: snow;
+    font-size: 20px;
+    font-family: fantasy;
+}
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram{
+    background: snow;
+    color: rgb(194, 36, 186);
+}
+.follow-us{
+    color: snow;
+    font-size: 20px;
+    font-family: fantasy;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

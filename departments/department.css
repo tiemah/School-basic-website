@@ -1,0 +1,71 @@
+.intro{
+    text-align: center;
+    background: rgba(49, 182, 223, 0.7);
+    margin-left: 250px;
+    margin-top: 30px;
+    margin-right: 250px;
+    font-size: 20px;
+    font-family: fantasy;
+}
+.science{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 50px;
+}
+.science img{
+    height: 300px;
+    width: 400px;
+    border-radius: 10px;
+}
+.science p{
+    font-size: 20px;
+    font-family: fantasy;
+    background: rgba(50, 167, 206, 0.7);
+    margin-left: -200px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.languages{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.languages img{
+    border-radius: 10px;
+}
+.languages p{
+    font-size: 20px;
+    font-family: fantasy;
+    background: rgba(50, 167, 206, 0.7);
+    margin-left: -200px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.languages blockquote{
+    margin-top: 0px;
+}
+.maths{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.maths img{
+    width: 300px;
+    height: 300px;
+
+}
+.maths p{
+    font-size: 20px;
+    font-family: fantasy;
+    background: rgba(50, 167, 206, 0.7);
+    margin-left: -200px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+h2{
+    background: rgb(7, 14, 14);
+    color: snow;
+}

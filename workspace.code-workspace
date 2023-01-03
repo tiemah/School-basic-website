@@ -1,0 +1,34 @@
+{
+	"folders": [
+		{
+			"path": "about us"
+		},
+		{
+			"path": "academics"
+		},
+		{
+			"path": "admin"
+		},
+		{
+			"path": "admission"
+		},
+		{
+			"path": "alumni"
+		},
+		{
+			"path": "contact us"
+		},
+		{
+			"path": "events"
+		},
+		{
+			"path": "images"
+		},
+		{
+			"path": "messages"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "alumni"
+	}
+}

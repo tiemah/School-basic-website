@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background:url(images/geo.jpg);
+    /* background-position: fixed; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+ /* main */
+.main_content{
+    display: grid;
+    /* grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 1em; */
+    margin: 20px;
+    padding: 20px;
+    background: rgba(44, 43, 43, 0.3);
+}
+.welcome{
+    text-align: center;
+    background: rgba(167, 224, 238, 0.6);
+    width:auto;
+    margin-left: 400px;
+    margin-right: 400px;
+    height: 150px;
+    border-radius:10px;
+    margin-bottom: 100px;
+}
+h2{
+    padding-top: 20px;
+}
+p{
+    margin-top: 20px;
+    font-size: 20px;
+}
+/* visit us link */
+.visit{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 12px 30px;
+    font-size: 18px;
+    background: transparent;
+    text-align: center;
+    margin-top: 30px;
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.visit:hover{
+    border: 1px solid #f44336;
+    background: #f44336;
+    transition: 1s;
+}
+
+.facilities{
+    background:rgb(84, 154, 156);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-gap: 20px; */
+    margin: 20px 0px 0px 90px;
+    padding: 20px;
+    /* margin-top: 20pxpx; */
+    align-items: center;
+    height: 350px;
+    width: 80%;
+    
+}
+.facilities-title{
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(233, 241, 241);
+    
+    align-items: center;
+    float: left;
+
+    /* color: chartreuse; */
+ }
+.pool img{
+    width: 200px;
+    height: 200px;
+    margin-right:100px;
+    margin-left: 100px;
+    border-radius: 10px;
+}
+.lib img{
+    width: 200px;
+    height: 200px;
+    margin-right: 50px;
+    border-radius: 10px;
+}
+.image img{
+    width: 200px;
+    height: 200px;
+    margin-right:-40px ;
+    border-radius: 10px;
+   
+}
+ 
+  .pool img:hover{
+      transform: scale(1.2);
+  }
+  .lib img:hover{
+      transform: scale(1.2)
+  }
+  .image img:hover{
+      transform: scale(1.2);
+  }
+   .pool p{
+      margin-left: 130px;      
+  }
+  .lib p{
+      margin-left: 50px;
+  }
+  image p{
+      margin-left: 60px;
+  }
+  .values{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    margin: 20px;
+    padding: 20px;
+
+}
+.core-values{
+    background: rgba(204, 200, 200,0.7);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    align-items: center;
+    text-align: center;
+}
+.mission{
+    background:rgba(204,200,200,0.7);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    align-items: center;
+    text-align: center;
+}
+.vision{
+    background:rgba(204,200,200,0.7);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.vision::after{
+    background: turquoise;
+     display:block;
+     margin: auto;
+     transition: 1;
+
+}
+.vision:hover{
+    background:turquoise;
+  }
+.core-values::after{
+    background: turquoise;
+     display:block;
+     margin: auto;
+     transition: 0.5s;
+}
+.core-values:hover{
+    background: turquoise;
+}
+
+.mission::after{
+    background: turquoise;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.mission:hover{
+    background: turquoise;
+}
+
+ 
+ /* footer */
+
+.footer-wrapper{
+    bottom: 0;
+    position: sticky;
+    background: rgb(35, 47, 71);
+    margin-top: 20px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 40% 60%; 
+    height: 300px;   
+}
+/* news letter */
+.news-letter p{
+    font-size: 20px;
+    font-family: fantasy;
+    color:snow;
+}
+/* col-2 */
+.column-2
+{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+/* adress */
+.address{
+    font-size: 20px;
+    font-family: fantasy;
+    color: snow;
+}
+/* contact */
+.contact{
+    font-size: 20px;
+    font-family: fantasy;
+    color: snow;
+}
+/* help */
+.help{
+    color: snow;
+    font-size: 20px;
+    font-family: fantasy;
+}
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook{
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter{
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram{
+    background: snow;
+    color: rgb(194, 36, 186);
+}
+.follow-us{
+    color: snow;
+    font-size: 20px;
+    font-family: fantasy;
+}
+
+/* ADMISSION PAGE */
+

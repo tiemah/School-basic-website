@@ -1,0 +1,57 @@
+h2{
+    text-align: center;
+    background: #1f2833;
+    color: snow;
+}
+.brief-history{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.brief-history img{
+    height: 300px;
+    width: 400px;
+    background: rgba(58, 182, 182, 0.7);
+}
+.msg p{
+    font-size: 20px;
+    font-family: fantasy;
+    margin-left: -200px;
+    margin-top: 10px;
+    background: rgba(58, 182, 182, 0.7);
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.brief-history figcaption{
+    font-size: 20px;
+    font-family: fantasy;
+}
+.current p{
+    font-size: 20px;
+    font-family: fantasy;
+    background: #c5c6c7;
+}
+.anthem p{
+    font-size: 20px;
+    font-family: fantasy;
+    background: #c5c6c7;
+}
+.gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 5px;
+    background: rgb(28, 214, 214);
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.gallery img{
+    height: 200px;
+    width: 200px;
+}
+
+.gallery img:hover{
+    transform: scale(1.2);
+    transition: 1s;
+}
